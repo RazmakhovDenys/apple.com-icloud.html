@@ -2054,6 +2054,15 @@ h6 {
     z-index: 0;
 }
 
+.footer {
+    position: absolute;
+    background-color: rgb(236, 219, 219);
+    left: 10px;
+    top: 16300;
+    padding: 500px 1000px 400px 1000px;
+    z-index: 0;
+}
+
 .footer-p1 {
     position: absolute;
     font-family: Helvetica, sans-serif;
@@ -2061,7 +2070,9 @@ h6 {
     color: gray;
     top: 16350px;
     left: 200px;
+    z-index: 1;
 }
+
 
 .footer-p2 {
     position: absolute;
@@ -2071,6 +2082,7 @@ h6 {
     text-align: start;
     top: 16380px;
     left: 200px;
+    z-index: 1;
 }
 
 .footer-p3 {
@@ -2081,6 +2093,7 @@ h6 {
     text-align: start;
     top: 16410px;
     left: 200px;
+    z-index: 1;
 }
 
 .footer-p4 {
@@ -2091,6 +2104,7 @@ h6 {
     text-align: start;
     top: 16430px;
     left: 200px;
+    z-index: 1;
 }
 
 .footer-p5 {
@@ -2101,6 +2115,7 @@ h6 {
     text-align: start;
     top: 16450px;
     left: 200px;
+    z-index: 1;
 }
 
 .footer-p6 {
@@ -2111,6 +2126,7 @@ h6 {
     text-align: start;
     top: 16510px;
     left: 200px;
+    z-index: 1;
 }
 
 .footer-p {
@@ -2123,6 +2139,7 @@ h6 {
     left: 200px;
     border-bottom: 1px solid rgb(156, 143, 143);
     padding-bottom: 20px;
+    z-index: 1;
 }
 
 footer img {
@@ -2132,6 +2149,7 @@ footer img {
     top: 16630px;
     left: 200px;
     opacity: 0.8;
+    z-index: 1;
 }
 
 .footer-arrow {
@@ -2142,6 +2160,7 @@ footer img {
     top: 16615px;
     left: 220px;
     opacity: 0.8;
+    z-index: 1;
 }
 
 .footer-iClodplus {
@@ -2152,6 +2171,7 @@ footer img {
     top: 16615px;
     left: 240px;
     opacity: 0.8;
+    z-index: 1;
 }
 
 .footer-ShopandLearn {
@@ -2159,6 +2179,7 @@ footer img {
     font-family: Helvetica, sans-serif;
     font-size: 11px;
     top: 16655px;
+    z-index: 1;
     left: 200px;
 }
 
@@ -2168,6 +2189,8 @@ footer img {
     font-size: 11px;
     top: 16675px;
     left: 200px;
+    color: gray;
+    z-index: 1;
 }
 
 .footer-Store:hover {
@@ -2180,6 +2203,8 @@ footer img {
     font-size: 11px;
     top: 16695px;
     left: 200px;
+    color: gray;
+    z-index: 1;
 }
 
 .footer-Mac:hover {
@@ -2192,8 +2217,1047 @@ footer img {
     font-size: 11px;
     top: 16715px;
     left: 200px;
+    color: gray;
+    z-index: 1;
 }
 
 .footer-iPad:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-iPhone {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16735px;
+    left: 200px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-iPhone:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-Watch {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16755px;
+    left: 200px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-Watch:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-Vision {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16775px;
+    left: 200px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-Vision:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AirPods {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16795px;
+    left: 200px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-AirPods:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-TVandHome {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16815px;
+    left: 200px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-TVandHome:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AirTag {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16835px;
+    left: 200px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-AirTag:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-Accessories {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16855px;
+    left: 200px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-Accessories:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-GiftCards {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16875px;
+    left: 200px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-GiftCards:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleWallet {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16915px;
+    left: 200px;
+    z-index: 1;
+}
+
+.footer-Wallet {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16935px;
+    left: 200px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-Wallet:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleCard {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16955px;
+    left: 200px;
+    z-index: 1;
+    color: grey;
+}
+
+.footer-AppleCard:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-ApplePay {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16975px;
+    left: 200px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-ApplePay:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleCash{
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16995px;
+    left: 200px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-AppleCash:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-Account {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16655px;
+    left: 400px;
+    z-index: 1;
+}
+
+.footer-ManageAppleID {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16675px;
+    left: 400px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-ManageAppleID:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleStoreAccount {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16695px;
+    left: 400px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-AppleStoreAccount:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-iCloudcom {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16715px;
+    left: 400px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-iCloudcom:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-Entertainment {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16755px;
+    left: 400px;
+    z-index: 1;
+}
+
+.footer-AppleOne {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16775px;
+    left: 400px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-AppleOne:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleTVplus {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16795px;
+    left: 400px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-AppleTVplus:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleMusic {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16815px;
+    left: 400px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-AppleMusic:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleArcade {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16835px;
+    left: 400px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-AppleArcade:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleFitnessplus {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16855px;
+    left: 400px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-AppleFitnessplus:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleNewsplus {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16875px;
+    left: 400px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-ApplrNewsplus:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-ApplePodcasts {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16895px;
+    left: 400px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-ApplePodcasts:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleBooks {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16915px;
+    left: 400px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-AppleBooks:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppStore {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16935px;
+    left: 400px;
+    color: grey;
+    z-index: 1;
+}
+
+.footer-AppStore:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleStore {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16655px;
+    left: 575px;
+    z-index: 1;
+}
+
+.footer-FindaStore {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16675px;
+    left: 575px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-FindaStore:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-GeniusBar {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16695px;
+    left: 575px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-GeniusBar:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-TodayatApple {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16715px;
+    left: 575px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-TodayatApple:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-GroupReservations {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16735px;
+    left: 575px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-GroupReservations:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleCamp {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16755px;
+    left: 575px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-AppleCamp:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleStoreApp {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16775px;
+    left: 575px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-AppleStoreApp:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-CertifiedRefurbished {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16795px;
+    left: 575px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-CertifiedRefurbished:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleTradeIn {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16815px;
+    left: 575px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-AppleTradeIn:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-Financing {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16835px;
+    left: 575px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-Financing:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-CarrierDealsatApple {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16855px;
+    left: 575px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-CarrierDealsatApple:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-OrderStatus {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16875px;
+    left: 575px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-OrderStatus:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-ShoppingHelp {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16895px;
+    left: 575px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-ShoppingHelp:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-ForBusiness {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16655px;
+    left: 755px;
+    z-index: 1;
+}
+
+.footer-AppleandBusiness {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16675px;
+    left: 755px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-AppleandBusiness:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-ShopforBusiness {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16695px;
+    left: 755px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-ShopforBusiness:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-ForEducation {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16735px;
+    left: 755px;
+    z-index: 1;
+}
+
+.footer-AppleandEducation {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16755px;
+    left: 755px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-AppleandEducation:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-ShopforK-12 {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16775px;
+    left: 755px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-ShopforK-12:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-ShopforCollege {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16795px;
+    left: 755px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-ShopforCollege:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-ForHealthcare {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16835px;
+    left: 755px;
+    z-index: 1;
+}
+
+.footer-AppleinHealthcare {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16855px;
+    left: 755px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-AppleinHealthcare:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-HealthonAppleWatch {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16875px;
+    left: 755px;
+    color:gray;
+    z-index: 1;
+}
+
+.footer-HealthonAppleWatch:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-HealthRecordsoniPhone {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16895px;
+    left: 755px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-HealthRecordsoniPhone:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-ForGovernment {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16935px;
+    left: 755px;
+    z-index: 1;
+}
+
+.footer-ShopforGovernment {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16955px;
+    left: 755px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-ShopforGovernment:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-ShopforVeteransandMilitary {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16975px;
+    left: 755px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-ShopforVeteransandMilitary:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleValues {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16655px;
+    left: 915px;
+    z-index: 1;
+}
+
+.footer-Accessibility {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16675px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-Accessibility:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-Education {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16695px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-Education:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-Environment {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16715px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-Environment:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-InclusionandDiversity {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16735px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-InclusionandDiversity:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-Privacy {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16755px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-Privacy:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-RacialEquityandJustice {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16775px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-RacialEquityandJustice:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-SupplyChain {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16795px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-SupplyChain:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AboutApple {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16835px;
+    left: 915px;
+    z-index: 1;
+}
+
+.footer-Newsroom {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16855px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-Newsroom:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-AppleLeadership {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16875px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-AppleLeadership:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-CareerOpportunities {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16895px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-CareerOpportunities:hover{
+    border-bottom: 1px solid gray;
+}
+
+.footer-Investors {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16915px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-Investors:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-EthicsandCompliance {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16935px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-EthicsandCompliance:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-Events {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16955px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-Events:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-ContactApple {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 16975px;
+    left: 915px;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-ContactApple:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-Morewaystoshop {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 17045px;
+    left: 200px;
+    color: rgb(158, 158, 158);
+    z-index: 1;
+}
+
+.Copyright {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 17080px;
+    left: 200px;
+    color: rgb(158, 158, 158);
+    border-top: 2px solid gray;
+    padding-top: 20px;
+    padding-right: 700px;
+    z-index: 1;
+}
+
+.footer-PrivacyPolicy {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 17100px;
+    left: 500px;
+    color: rgb(158, 158, 158);
+    z-index: 1;
+}
+
+.footer-PrivacyPolicy:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-TermsofUse {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 17100px;
+    left: 600px;
+    color: rgb(158, 158, 158);
+    z-index: 1;
+} 
+
+.footer-TermsofUse:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-SalesandRefunds {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 17100px;
+    left: 700px;
+    color: rgb(158, 158, 158);
+    z-index: 1;
+}
+
+.footer-SalesandRefunds:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-Legal {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 17100px;
+    left: 800px;
+    color: rgb(158, 158, 158);
+    z-index: 1;
+}
+
+.footer-Legal:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-SiteMap {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 17100px;
+    left: 850px;
+    color: rgb(158, 158, 158);
+    z-index: 1;
+}
+
+.footer-SiteMap:hover {
+    border-bottom: 1px solid gray;
+}
+
+.footer-UnitedStates {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    top: 17100px;
+    right: 170px;
+    color: rgb(158, 158, 158);
+    z-index: 1;
+}
+
+.footer-UnitedStates:hover {
     border-bottom: 1px solid gray;
 }
